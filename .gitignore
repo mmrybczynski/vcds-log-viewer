@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Środowisko
+.env
+.env.*
+!.env.example
+
+# Logi
+*.log
+logs/
+
+# Build
+dist/
+build/
+coverage/
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Tymczasowe
+tmp/
+temp/
