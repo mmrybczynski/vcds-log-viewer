@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
-const { parseVcdsCsv } = require('./csvParser');
+const { parseVcdsCsv } = require('./services/csvParserService');
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3001;
